@@ -26,7 +26,8 @@ class InscriptionVue(VueAbstraite):
                 cap=True,
                 special=True,
                 number=True,
-                message="Au moins 35 caractères, incluant une majuscule et un chiffre",
+                message="Au moins 16 caractères, dont une majuscule, un chiffre et un caractère spécial",
+                special=True
             ),
         ).execute()
 

@@ -107,9 +107,9 @@ WEBSERVICE_HOST=https://pokeapi.co/api/v2
 
 POSTGRES_HOST=sgbd-eleves.domensai.ecole
 POSTGRES_PORT=5432
-POSTGRES_DATABASE=idxxxx
-POSTGRES_USER=idxxxx
-POSTGRES_PASSWORD=idxxxx
+POSTGRES_DATABASE=defaultdb
+POSTGRES_USER=user-sonny
+POSTGRES_PASSWORD=f7b0tflf6dnc2kfvbn0m
 POSTGRES_SCHEMA=projet
 ```
 
