@@ -24,6 +24,7 @@ class InscriptionVue(VueAbstraite):
             validate=PasswordValidator(
                 length=os.environ["PASSWORD_MIN_LENGTH"],
                 cap=True,
+                special=True,
                 number=True,
                 message="Au moins 16 caractères, dont une majuscule, un chiffre et un caractère spécial",
                 special=True
